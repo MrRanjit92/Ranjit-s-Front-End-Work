@@ -1,0 +1,173 @@
+/* Common styles for buttons */
+input[type="submit"],
+input.MyButton {
+  width: 240px;
+  height: 35px;
+  display: block;
+  font-family: Arial, "Helvetica", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 6px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background-color: #37a69b;
+  background-image: linear-gradient(top, #3db0a6, #3111);
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+}
+
+/* Specific styles for the first submit button */
+input[type="submit"] {
+  margin: 29px 0 0 29px;
+}
+
+/* Specific styles for the second submit button */
+input.MyButton {
+  width: 150px;
+  padding: 2px;
+  font-size: 20px;
+  background: #3366cc;
+  color: #fff;
+  border: 1px solid #3366cc;
+  border-radius: 10px;
+  box-shadow: 6px 6px 5px #999;
+  text-align: center;
+}
+
+/* Hover styles for both buttons */
+input[type="submit"]:hover,
+input.MyButton:hover {
+  color: #ffff00;
+  background: #000;
+  border: 1px solid #fff;
+  box-shadow: 5px 5px 4px #adadad;
+}
+
+/* Styles for the shadow div */
+.shadow {
+  background: #000;
+  border-radius: 12px 12px 4px 4px;
+  box-shadow: 0 0 20px 10px #000;
+  height: 12px;
+  margin: 30px auto;
+  opacity: 0.2;
+  width: 270px;
+}
+
+/* Styles for the signup class */
+.signup {
+  border: 2px solid black;
+  padding: 30px;
+}
+
+/* Styles for personal information */
+.personal-information {
+  font-family: Arial, "Helvetica", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* Styles for h1 */
+h1 {
+  text-align: center;
+  font-family: Orator STD;
+  border: 3px solid black;
+}
+
+/* Styles for h2 and h3 */
+h2, h3 {
+  text-align: center;
+  font-family: Century Gothic;
+}
+
+/* Styles for the .fix class */
+.fix {
+  clear: both;
+  text-align: center;
+  font-family: Century Gothic;
+}
+
+/* Common styles for text inputs */
+input[type="password"],
+input[type="text"] {
+  background: url('http://i.minus.com/ibhqW9Buanohx2.png') center left no-repeat, linear-gradient(top, #d6d7d7, #dee0e0);
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  color: #696969;
+  height: 39px;
+  margin: 31px 0 0 29px;
+  padding-left: 37px;
+  transition: box-shadow 0.3s;
+  width: 240px;
+}
+
+/* Styles for text inputs in focus */
+input[type="password"]:focus,
+input[type="text"]:focus {
+  box-shadow: 0 0 4px 1px rgba(55, 166, 155, 0.3);
+  outline: 0;
+}
+
+/* Styles for the show password toggle */
+.show-password {
+  display: block;
+  height: 16px;
+  margin: 26px 0 0 28px;
+  width: 87px;
+}
+
+/* Styles for checkboxes */
+input[type="checkbox"] {
+  cursor: pointer;
+  height: 16px;
+  opacity: 0;
+  position: relative;
+  width: 64px;
+}
+
+/* Styles for checked checkboxes */
+input[type="checkbox"]:checked {
+  left: 29px;
+  width: 58px;
+}
+
+/* Styles for the toggle switch */
+.toggle {
+  background: url('http://i.minus.com/ibitS19pe8PVX6.png') no-repeat;
+  display: block;
+  height: 16px;
+  margin-top: -20px;
+  width: 87px;
+  z-index: -1;
+}
+
+/* Styles for the forgot password link */
+.forgot {
+  color: #7f7f7f;
+  display: inline-block;
+  float: right;
+  font: 12px/1 sans-serif;
+  left: -19px;
+  position: relative;
+  text-decoration: none;
+  top: 5px;
+  transition: color 0.4s;
+}
+
+/* Hover styles for the forgot password link */
+.forgot:hover {
+  color: #3b3b3b;
+}
+
+/* Background image for the HTML element */
+html {
+  background: url("../images/navyblue.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
