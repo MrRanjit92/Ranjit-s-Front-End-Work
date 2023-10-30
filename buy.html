@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart - Psports</title>
+    <link href="styles/site3.css" type="text/css" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/psportslogo.png">
+</head>
+<body>
+    <div class="container">
+    </div>
+
+    <div class="topnav2" id="myTopnav">
+        <a href="womenvans.html">Shoes</a>
+        <a href="wvbags.html">Bags</a>
+        <a href="wvtshirt.html" class="current">Tops & Tshirts</a>
+        <a href="wvjackets.html">Jackets</a>
+        <a href="wvpants.html">Pants</a>
+        <a href="wvskirt.html">Skirts</a>
+        <a href="wvshorts.html">Shorts</a>
+        <a href="wvaccessories.html">Accessories</a>
+    </div>
+    <a href="brands.html" class="button">Back</a>
+
+    <!-- Cart items details -->
+    <div class="small-container cart-page">
+        <table width="100%">
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+
+            <!-- Cart items will be displayed here dynamically using JavaScript -->
+
+            <tr>
+                <td colspan="3">
+                    <p>Your Cart is empty.</p>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Total Price:</td>
+                <td></td>
+                <td id="total-price">0.00</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>
